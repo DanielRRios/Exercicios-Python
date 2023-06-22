@@ -9,4 +9,4 @@ campeonato = ['corinthians', 'palmeiras', 'são paulo', 'santos', 'chapecoense',
               'gremio', 'internacional', 'cuiaba', 'bahia', 'cruzeiro',
               'atletico', 'fortaleza', 'ponte', 'goias', 'bragantino']
 
-print(f'5 Primeiros : {campeonato[0:5]} \n4 Ultimos colocados : {campeonato[-4:]} \n{sorted(campeonato)} \nA chapecoense está na {campeonato.index("chapecoense") + 1}° posição')
+print(f'5 Primeiros : {campeonato[0:5]} \n4 Ultimos colocados : {campeonato[16:]} \n{sorted(campeonato)} \nA chapecoense está na {campeonato.index("chapecoense") + 1}° posição')
