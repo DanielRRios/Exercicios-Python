@@ -5,8 +5,8 @@
 import random
 
 total = 0
-al = random.randint(1, 20)
-chute = int(input('Chute um número de 1 a 20 : '))
+al = random.randint(1, 100)
+chute = int(input('Chute um número de 1 a 100 : '))
 while True:
     if(chute == al):
         total += 1
