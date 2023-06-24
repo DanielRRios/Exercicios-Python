@@ -9,3 +9,6 @@ while True:
     if p == 0:
         break
     peso.append(p)
+peso.sort()
+maior = len(peso) - 2
+print(f'{len(peso)} pesos cadastrados \nMais leves cadastrados {peso[0:2]}  \nMais pesados cadastrados {peso[maior:]}')
